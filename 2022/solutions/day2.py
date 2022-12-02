@@ -57,6 +57,6 @@ for round in range(len(elfsturn)):
         case "Z":
             tot2score += (elfscoring[reversedrules[elfsturn[round]]] + 6)
 
-print("total rounds: " + str(len(elfsturn)))
-print("total score #1: " + str(totscore))
-print("total score #2: " + str(tot2score))
+print("total rounds:", len(elfsturn))
+print("total score #1:", totscore)
+print("total score #2:", tot2score)
